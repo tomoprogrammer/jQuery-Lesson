@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    <script src="jquery.min.js"></script>
-    <script src="app.js"></script>
-  </body>
-</html>
+$(function(){
+  $('.box1').slideDown(function(){
+    $('.box1').css({
+      'background-color': '#0000FF',
+      'width': '200px',
+      'height': '100px'
+    }).slideUp();
+  });
+});
